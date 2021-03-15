@@ -11,19 +11,19 @@
           <router-link class="nav-link" to="/">Home</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/Calc" class="nav-link">Calculator</router-link>
+          <router-link to="/calc" class="nav-link">Calculator</router-link>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" d="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Rest Client</a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li>
-              <router-link class="dropdown-item" to="#">Public APIs</router-link>
+              <router-link class="dropdown-item" to="/public">Public APIs</router-link>
               <router-link class="dropdown-item" to="#">Private APIs</router-link>
             </li>
           </ul>
         </li>
         <li class="nav-item">
-          <router-link  class="nav-link" to="/About">About</router-link>
+          <router-link  class="nav-link" to="/about">About</router-link>
         </li>
       </ul>
     </div>
