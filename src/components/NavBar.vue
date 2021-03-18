@@ -18,7 +18,7 @@
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li>
               <router-link class="dropdown-item" to="/public">Public APIs</router-link>
-              <router-link class="dropdown-item" to="#">Private APIs</router-link>
+              <router-link class="dropdown-item" to="/private">Private APIs</router-link>
             </li>
           </ul>
         </li>

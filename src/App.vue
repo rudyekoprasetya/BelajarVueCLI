@@ -6,7 +6,9 @@
 
     <!-- konten -->
     <div class="container mt-4">
+    <transition enter_active_class="animate__animated animate__fadeIn" leave_active_class="animate__animated animate__fadeOut">
       <router-view/>
+    </transition>
     </div>
     <!-- konten -->
     

@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import Calc from '../views/Calc.vue'
 import Public from '../views/Public.vue'
+import Private from '../views/Private.vue'
 
 Vue.use(VueRouter)
 
@@ -22,6 +23,11 @@ const routes = [
     path: '/public',
     name: 'Public',
     component: Public
+  },
+  {
+    path: '/private',
+    name: 'Private',
+    component: Private
   },
   {
     path: '/calc',
